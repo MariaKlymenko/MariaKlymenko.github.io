@@ -1,0 +1,16 @@
+.ram {
+	border-radius: 30px;
+	border: 2px solid green;
+	width: 500px;
+	height: 400px;
+	box-sizing: border-box;
+	overflow: auto;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+}
+img {
+	width: 400px;
+	margin: auto;
+	display: block;
+}
