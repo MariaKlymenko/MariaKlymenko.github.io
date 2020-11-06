@@ -9,6 +9,11 @@
 	padding: 10px;
 	margin: 10px;
 }
+.ram:nth-child(odd)>.cell:nth-child(odd){
+			background-color: brown;
+		}
+.ram:nth-child(even)>.cell:nth-child(even){
+			background-color: yellow;
 img {
 	width: 400px;
 	margin: auto;

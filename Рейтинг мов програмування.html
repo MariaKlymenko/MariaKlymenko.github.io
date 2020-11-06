@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Рейтинг мов програмування</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		tr, th, td{
+			border: 1px solid;
+			text-align: center;
+
+		}
+		.Number{
+			width: 60px;
+		} 
+		.Name{
+			width: 120px;
+		} 
+		.Rating{
+			width: 80px;
+		}
+		tr{
+			height: 30px;
+		}
+		table{
+			border-collapse: collapse;
+			margin: auto;
+		}
+		tr:nth-child(even){
+			background-color: #ffdcb5;
+		}
+		tr:nth-child(odd){
+			background-color: #ffdcb5;
+		}
+		tr:first-child{
+			background-color: transparent;
+		}
+		tr:hover{
+			background-color: #f2a44b;
+		}
+		td:hover{
+			background-color: #ff7e29;
+		}
+		tr:first-child:hover{
+			background-color: transparent;
+		}
+		.a:link,.a:visited{
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<a href="index.html">Калейдоскоп відкриттів</a>
+	<h1 style="text-align: center;">Рейтинг мов програмування</h1>
+	<table>
+		<tr>
+			<th class="Number">Номер</th>
+			<th class="Name">Назва</th>
+			<th class="Rating">Рейтинг</th>
+		</tr>
+		<tr class="not">
+			<td>1</td>
+			<td>C</td>
+			<td>16.95%</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Java</td>
+			<td>12.56%</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Python</td>
+			<td>11.28%</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>C++</td>
+			<td>6.94%</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>C#</td>
+			<td>4.16%</td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td>Visual Basic</td>
+			<td>3.97%</td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>JavaScript</td>
+			<td>2.14%</td>
+		</tr>
+		<tr>
+			<td>8</td>
+			<td>PHP</td>
+			<td>2.09%</td>
+		</tr>
+		<tr>
+			<td>9</td>
+			<td>R</td>
+			<td>1.99%</td>
+		</tr>
+		<tr>
+			<td>10</td>
+			<td>SQL</td>
+			<td>1.57%</td>
+		</tr>
+	</table>
+	<div style="width: 60px; margin: auto; text-align: center; margin-top: 20px; background-color: #ff7e29; padding: 5px;"><a class="a" href="https://www.tiobe.com/tiobe-index/" style="text-decoration: none;">Джерело</a></div>
+</body>
+</html>
